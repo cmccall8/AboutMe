@@ -1,0 +1,352 @@
+#wrapper {
+  width: 80%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  min-width: 850px;
+  background-color: #BDF0D6;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h2 {
+  font-family: bebas-neue-by-fontfabric,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 5rem;
+}
+
+ul {
+  font-family: bebas-neue-by-fontfabric,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: zooja-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+  margin-left: 50px;
+}
+
+h3 {
+  font-family: zooja-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  margin-left: 50px;
+}
+
+p {
+  font-family: avenir, sans-serif;
+  margin-left: 50px;
+  font-size: 1em;
+}
+
+header {
+  text-align: right;
+  padding-right: 20px;
+}
+
+header a {
+  color: #000000;
+}
+
+.banner-img {
+  position: relative;
+  padding: 0;
+  background-image: url("images/me3.jpg");
+  background-position: bottom;
+  background-size: cover;
+  height: 625px;
+  width: 100%;
+}
+
+.yellow-box {
+  box-sizing: border-box;
+  z-index: 0;
+  position: absolute;
+  top: 0px;
+  left: 170px;
+  width: 600px;
+  min-height: 70%;
+  background-color: #FFD294;
+  padding: 75px;
+}
+
+.yellow-box li {
+  padding-bottom: 30px;
+}
+
+.banner-img h1 {
+  color: black;
+  z-index: 1;
+  top: -185px;
+  left: 130px;
+  position: absolute;
+}
+
+.utah-img {
+  width: 30%;
+  margin-bottom: 50px;
+  float: left;
+  clear: both;
+  margin-right: 100px;
+}
+
+.background-sec {
+  background-color: #ffffff;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 50px;
+}
+
+.pet-sec {
+  background-color: #FFD294;
+  padding-right: 5rem;
+  padding-top: 5rem;
+  padding-left: 3rem;
+  overflow: auto;
+  padding-bottom: 50px;
+}
+
+.pet-sec h2 {
+  transform: rotate(-90deg);
+  float: left;
+  font-size: 12rem;
+  text-decoration: underline;
+}
+
+.img-left {
+  z-index: 0;
+  box-shadow: 20px 20px #ffffff;
+  width: 350px;
+}
+
+.img-right {
+  z-index: 0;
+  box-shadow: 20px 20px #ffffff;
+  width: 350px;
+}
+
+.juno-div {
+  position: relative;
+  float: left;
+  padding-top: 50px;
+}
+
+.mowgli-div {
+  position: relative;
+  float: right;
+  padding-top: 50px;
+}
+
+.pet-sec h3 {
+  position: absolute;
+  top: -20px;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.dino-sec {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("images/trex1.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right top;
+  background-color: #ffffff;
+  clear: both;
+}
+
+.dino-sec h2 {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+
+.dino-sec h3 {
+  display: inline-block;
+  float: right;
+  margin: 0;
+  padding: 0;
+  background-color: #BDF0D6;
+}
+
+.dino-sec p {
+  font-family: bebas-neue-by-fontfabric,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 10rem;
+  padding-top: 10rem;
+
+}
+
+.opinions-sec {
+  background-color: #BDF0D6;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.icon-box {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  min-width: 100px;
+}
+
+.ac-code {
+  width: 40%;
+  background-color: #FFD294;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.ac-code p {
+  margin-left: 0;
+  font-size: 3rem;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+  .yellow-box {
+    position: relative;
+    top: 0px;
+    left: 125px;
+  }
+
+  .banner-img h1 {
+    left: 110px;
+  }
+
+  .pet-sec {
+    padding-top: 0rem;
+  }
+
+  .pet-sec h2 {
+    transform: rotate(360deg);
+    font-size: 8rem;
+    text-decoration: underline;
+  }
+
+  .juno-div {
+    clear: left;
+  }
+
+  .img-left {
+    width: 300px;
+  }
+
+  .img-right {
+    width: 300px;
+  }
+
+  .dino-sec {
+    background-position: left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  #wrapper {
+    min-width: 600px;
+    padding-top: 0;
+  }
+
+  header {
+    padding-bottom: 75px;
+  }
+
+  .yellow-box {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 40%;
+    padding-left: 0;
+    min-height: 100%;
+  }
+
+  .banner-img h1 {
+    font-size: 6rem;
+    left: 50px;
+    top: -150px;
+  }
+
+  .utah-img {
+    margin-bottom: 50px;
+    float: left;
+    clear: both;
+    margin-right: 0px;
+  }
+
+  .background-sec {
+    background-color: #ffffff;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 50px;
+  }
+
+  .pet-sec {
+    padding-top: 0rem;
+  }
+
+  .pet-sec h2 {
+    transform: rotate(360deg);
+    font-size: 8rem;
+    text-decoration: underline;
+  }
+
+  .juno-div {
+    clear: left;
+  }
+
+  .img-left {
+    width: 300px;
+  }
+
+  .img-right {
+    width: 300px;
+  }
+
+  .dino-sec {
+    background-position: left;
+  }
+
+  .dino-sec h2 {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .dino-sec h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dino-sec p {
+    font-size: 8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  .ac-code {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px;
+  }
+
+  .ac-code h2 {
+    font-size: 4rem;
+  }
+
+  .ac-code p {
+    margin-left: 0;
+    font-size: 2rem;
+  }
+
+
+}
